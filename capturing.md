@@ -25,7 +25,7 @@ p = root.find("path").text
 from IPython.display import Image
 ```
 
-![exampleOfPigMovement](./pic/exampleOfPigMovement.gif)
+![little2](https://user-images.githubusercontent.com/112467598/200104783-b36586a0-a236-46aa-9a5d-72aeccd91891.gif)
 
 ## 1. dense optical flow by Farneback method
 - https://www.geeksforgeeks.org/opencv-the-gunnar-farneback-optical-flow/
@@ -133,7 +133,7 @@ start(p+'/exampleOfPigMovement3.mp4')
 
 ### RESULT
 
-![output01](./pic/output01.gif)
+![output01](https://user-images.githubusercontent.com/112467598/200104150-8c8485d0-a419-4977-85a5-f70000161c18.gif)
 
 - It recognizes the borders of objects, but it is difficult to track the entire object. 
 - 객체의 테두리를 인식하지만 전체 객체에 대한 추적이 어렵다.
@@ -254,7 +254,7 @@ startNoBackground(p+'/exampleOfPigMovement3.mp4')
 
 ### RESULT
 
-![output02](./pic/output02.gif)
+![output02](https://user-images.githubusercontent.com/112467598/200104181-ec700082-2987-433c-88b6-b13b86f0e92b.gif)
 
 - applying a background-removing code makes it possible to trace the entire object with compared to previous data. 
 - 이전 데이터와 비교했을 때, 배경을 제거하는 코드를 적용하면 전체 객체에 대한 추척이 가능해졌다.
@@ -271,7 +271,7 @@ startNoBackground(p+'/exampleOfPigMovement3.mp4')
 
 ### Result of dataframe
 
-![df](./pic/df.png)
+![df](https://user-images.githubusercontent.com/112467598/200104222-c7f1eff2-4e88-4b7a-8426-d4844d2d2f74.jpg)
 
 - variables: Date, result
 - Date: The date and time are included. The activity was tracked every 5 seconds by setting the increment_width to 5.
@@ -282,7 +282,7 @@ startNoBackground(p+'/exampleOfPigMovement3.mp4')
 - result: magnitude의 평균값이다. 결측치는 0으로 채워넣었다.
 
 ### The reason of choosing magnitude, not direction
-- It decided that the direction was not important to track activity, but how much movement was more important.
+- The direction was not important to track activity, but how much movement was more important.
 - 활동성을 추적하는 데 방향이 중요한 것이 아닌 얼마만큼 움직였는지가 더 중요하다고 판단했다.
 
 ### Next
